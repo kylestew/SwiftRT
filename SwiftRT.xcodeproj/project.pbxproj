@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		FF8585F825D4E7DC00CD0D5F /* Vec3.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8585F725D4E7DC00CD0D5F /* Vec3.swift */; };
 		FF8585F925D4E7DC00CD0D5F /* Vec3.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8585F725D4E7DC00CD0D5F /* Vec3.swift */; };
+		FF85860D25D4F24900CD0D5F /* Ray.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF85860C25D4F24900CD0D5F /* Ray.swift */; };
+		FF85860E25D4F24900CD0D5F /* Ray.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF85860C25D4F24900CD0D5F /* Ray.swift */; };
 		FF9E494125D45C410000AA92 /* SwiftRTApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9E492E25D45C410000AA92 /* SwiftRTApp.swift */; };
 		FF9E494225D45C410000AA92 /* SwiftRTApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9E492E25D45C410000AA92 /* SwiftRTApp.swift */; };
 		FF9E494325D45C410000AA92 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9E492F25D45C410000AA92 /* ContentView.swift */; };
@@ -21,6 +23,7 @@
 
 /* Begin PBXFileReference section */
 		FF8585F725D4E7DC00CD0D5F /* Vec3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vec3.swift; sourceTree = "<group>"; };
+		FF85860C25D4F24900CD0D5F /* Ray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ray.swift; sourceTree = "<group>"; };
 		FF9E492E25D45C410000AA92 /* SwiftRTApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftRTApp.swift; sourceTree = "<group>"; };
 		FF9E492F25D45C410000AA92 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FF9E493025D45C410000AA92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -54,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				FF8585F725D4E7DC00CD0D5F /* Vec3.swift */,
+				FF85860C25D4F24900CD0D5F /* Ray.swift */,
 			);
 			path = Types;
 			sourceTree = "<group>";
@@ -207,6 +211,7 @@
 				FF9E494325D45C410000AA92 /* ContentView.swift in Sources */,
 				FF8585F825D4E7DC00CD0D5F /* Vec3.swift in Sources */,
 				FF9E494125D45C410000AA92 /* SwiftRTApp.swift in Sources */,
+				FF85860D25D4F24900CD0D5F /* Ray.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,6 +223,7 @@
 				FF9E494425D45C410000AA92 /* ContentView.swift in Sources */,
 				FF8585F925D4E7DC00CD0D5F /* Vec3.swift in Sources */,
 				FF9E494225D45C410000AA92 /* SwiftRTApp.swift in Sources */,
+				FF85860E25D4F24900CD0D5F /* Ray.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

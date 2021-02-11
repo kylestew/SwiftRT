@@ -31,7 +31,12 @@ struct Vec3 {
 
 extension Vec3 {
 
+    static var zero: Vec3 {
+        Vec3()
+    }
+
     static func +=(u: Vec3, v: Vec3) -> Vec3 {
+
         u + v
     }
 
