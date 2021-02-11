@@ -7,17 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF8585F825D4E7DC00CD0D5F /* Vec3.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8585F725D4E7DC00CD0D5F /* Vec3.swift */; };
+		FF8585F925D4E7DC00CD0D5F /* Vec3.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8585F725D4E7DC00CD0D5F /* Vec3.swift */; };
 		FF9E494125D45C410000AA92 /* SwiftRTApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9E492E25D45C410000AA92 /* SwiftRTApp.swift */; };
 		FF9E494225D45C410000AA92 /* SwiftRTApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9E492E25D45C410000AA92 /* SwiftRTApp.swift */; };
 		FF9E494325D45C410000AA92 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9E492F25D45C410000AA92 /* ContentView.swift */; };
 		FF9E494425D45C410000AA92 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9E492F25D45C410000AA92 /* ContentView.swift */; };
 		FF9E494525D45C410000AA92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF9E493025D45C410000AA92 /* Assets.xcassets */; };
 		FF9E494625D45C410000AA92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF9E493025D45C410000AA92 /* Assets.xcassets */; };
-		FF9E495225D45CEE0000AA92 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9E495125D45CEE0000AA92 /* Main.swift */; };
-		FF9E495325D45CEE0000AA92 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9E495125D45CEE0000AA92 /* Main.swift */; };
+		FF9E495225D45CEE0000AA92 /* ImageOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9E495125D45CEE0000AA92 /* ImageOut.swift */; };
+		FF9E495325D45CEE0000AA92 /* ImageOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9E495125D45CEE0000AA92 /* ImageOut.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FF8585F725D4E7DC00CD0D5F /* Vec3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vec3.swift; sourceTree = "<group>"; };
 		FF9E492E25D45C410000AA92 /* SwiftRTApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftRTApp.swift; sourceTree = "<group>"; };
 		FF9E492F25D45C410000AA92 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FF9E493025D45C410000AA92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -26,7 +29,7 @@
 		FF9E493D25D45C410000AA92 /* SwiftRT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftRT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF9E493F25D45C410000AA92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF9E494025D45C410000AA92 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
-		FF9E495125D45CEE0000AA92 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		FF9E495125D45CEE0000AA92 /* ImageOut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageOut.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +50,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FF85860525D4EE8800CD0D5F /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				FF8585F725D4E7DC00CD0D5F /* Vec3.swift */,
+			);
+			path = Types;
+			sourceTree = "<group>";
+		};
 		FF9E492825D45C410000AA92 = {
 			isa = PBXGroup;
 			children = (
@@ -60,7 +71,8 @@
 		FF9E492D25D45C410000AA92 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				FF9E495125D45CEE0000AA92 /* Main.swift */,
+				FF85860525D4EE8800CD0D5F /* Types */,
+				FF9E495125D45CEE0000AA92 /* ImageOut.swift */,
 				FF9E492F25D45C410000AA92 /* ContentView.swift */,
 				FF9E492E25D45C410000AA92 /* SwiftRTApp.swift */,
 				FF9E493025D45C410000AA92 /* Assets.xcassets */,
@@ -191,8 +203,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF9E495225D45CEE0000AA92 /* Main.swift in Sources */,
+				FF9E495225D45CEE0000AA92 /* ImageOut.swift in Sources */,
 				FF9E494325D45C410000AA92 /* ContentView.swift in Sources */,
+				FF8585F825D4E7DC00CD0D5F /* Vec3.swift in Sources */,
 				FF9E494125D45C410000AA92 /* SwiftRTApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -201,8 +214,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF9E495325D45CEE0000AA92 /* Main.swift in Sources */,
+				FF9E495325D45CEE0000AA92 /* ImageOut.swift in Sources */,
 				FF9E494425D45C410000AA92 /* ContentView.swift in Sources */,
+				FF8585F925D4E7DC00CD0D5F /* Vec3.swift in Sources */,
 				FF9E494225D45C410000AA92 /* SwiftRTApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

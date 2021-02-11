@@ -1,10 +1,10 @@
 import SwiftUI
 
 struct ContentView: View {
-    let imageProvider = ImageOut(size: 256)
+    let nsImg = ImageOut(size: 256).rasterize()
 
     var body: some View {
-        Image(nsImage: imageProvider.nsImage)
+        Image(nsImage: nsImg)
     }
 }
 
