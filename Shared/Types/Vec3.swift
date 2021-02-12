@@ -27,6 +27,10 @@ struct Vec3 {
         x * x + y * y + z * z
     }
 
+    var unit: Vec3 {
+        Vec3.unit(v: self)
+    }
+
 }
 
 extension Vec3 {
@@ -76,7 +80,7 @@ extension Vec3 {
              z: u.x * v.y - u.y * v.x)
     }
 
-    static func unit_vector(v: Vec3) -> Vec3 {
+    static func unit(v: Vec3) -> Vec3 {
         return v / v.length
     }
 
